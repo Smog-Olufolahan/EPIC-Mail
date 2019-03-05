@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="A mailing website">
+          <meta name="keywords" content="web design, mailing website">
+          <meta name="author" content="Tubi Olufolahan">
+        <title>Compose Message</title>
+        <link rel="stylesheet" href="style.css">
+      </head>
+     
+      <body>
+<form name="signup" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>Compose</h1>
+           <br/><br/>
+
+          <label for="from"><b>From</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+          <br/><br/>
+
+          <label for="to"><b>To</b></label>
+          <input type="text" placeholder="Enter recevier email" name="email" required>
+           <br/><br/>
+
+          <label for="subject"><b>Subject</b></label>
+          <input type="text" placeholder="Subject" name="subject" required>
+           <br/><br/>
+
+           <label for="compose"><b>Compose</b></label>
+          <textarea id="compose" name="compose" placeholder="Compose Message" required></textarea>
+           <br/><br/>
+
+           <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Send</button>
+            <button type="button"  class="draft">Draft</button>
+        </div>
+          </div>
+        </body>
+          </html>
