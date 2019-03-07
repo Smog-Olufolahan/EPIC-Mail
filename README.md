@@ -1,7 +1,7 @@
 # EPIC-Mail
 A web application that helps people exchange messages/information
 
-##Getting Started
+## Getting Started
 This application gives you the previledge of setting up an email account\, which enables you to send, receive and view messages
 
 ### Content 
@@ -18,4 +18,4 @@ This application gives you the previledge of setting up an email account\, which
 * Google chrome a wbe browser
 
 ## Author
-* OLufolahan Tubi
+* Olufolahan Tubi
